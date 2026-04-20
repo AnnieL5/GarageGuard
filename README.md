@@ -7,3 +7,6 @@ To properly use the tool, calibrate the constant to match the distance such that
 
 ## Wiring Diagram
 ![alt text](images/image1.jpg)
+
+## Arduino uno -> arduino pro mini
+
