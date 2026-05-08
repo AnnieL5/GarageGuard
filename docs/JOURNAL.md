@@ -25,3 +25,15 @@ Completed
     - inserted the new pcb
     - changed the height of the case h = ⁅26.7−15.1+20⁆ = 31.6mm
     - Changed extrude of the lid
+
+
+## 5.8
+
+Completed:
+- Revised pcb
+    - change lid extrude, change where the connection body is placed
+- Modify file structure
+- Make BOM
+- Revise readme
+Challenge:
+- Every time I modify something in Fusion 360 (modify sketch, extrude, move, etc) the body for the battery holder and buzzer move :(
