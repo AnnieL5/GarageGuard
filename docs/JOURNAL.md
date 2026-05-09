@@ -37,3 +37,17 @@ Completed:
 - Revise readme
 Challenge:
 - Every time I modify something in Fusion 360 (modify sketch, extrude, move, etc) the body for the battery holder and buzzer move :(
+
+## 5.9
+
+Completed
+- Solved yester's issue by changing the pcb to another and back
+
+- Challenge: Move the pcb part along with the wires
+- Fix: press key D
+
+- Challenge: Too lazy to measure the dimension of the ultrasonic sensor for making the sketch
+- Fix: project the ultrasonic sensor cad onto the sketch using "P"
+
+- Revised position of supporting cylinders
+- Modified the pcb and cad based on the changes
