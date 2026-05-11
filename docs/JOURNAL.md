@@ -51,3 +51,15 @@ Completed
 
 - Revised position of supporting cylinders
 - Modified the pcb and cad based on the changes
+
+## 5.10
+
+Completed:
+- Tried exporting the bodies -> Fusion 360 kept crashing
+- Finish case
+    - revise connector - created a new sketch and extrude from there
+    - export f3d
+- started the zine
+
+Challenge:
+- Can not export STEP file - fusion 360 crashes every time I do that TvT

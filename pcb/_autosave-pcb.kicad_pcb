@@ -467,13 +467,13 @@
 	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 		(layer "F.Cu")
 		(uuid "4d85b2c2-2711-4df0-9b5a-40f0fc6a0945")
-		(at 143.4084 76.3016)
+		(at 143.4084 79.9592)
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
 		(property "Reference" "BZ3"
 			(at -1.28 -5.715 0)
 			(layer "F.SilkS")
-			(uuid "a9059bc1-b65c-496f-ae2a-ff021f679a06")
+			(uuid "739938bc-5fdd-4e15-8844-c3e957930188")
 			(effects
 				(font
 					(size 1 1)
@@ -484,7 +484,7 @@
 		(property "Value" "Buzzer"
 			(at 3.8 7.4 0)
 			(layer "F.Fab")
-			(uuid "e7463f0c-4c9d-4357-9094-1092fd7130fb")
+			(uuid "895dcbf2-796a-47de-b10f-266794fbb4f1")
 			(effects
 				(font
 					(size 1 1)
@@ -497,7 +497,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d65f84ff-470e-4055-9310-4ddac629ee21")
+			(uuid "98b224b4-33f9-4586-8d64-25b6e492ec1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -510,7 +510,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e5cd9ecd-3003-4b00-b35b-ceedf4aa51da")
+			(uuid "ff5e0f42-59ed-449a-b569-3f75b871c83f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10961,14 +10961,6 @@
 		(uuid "3ad7ec6d-594a-4010-8433-2a1c4fe570ab")
 	)
 	(segment
-		(start 151.0084 76.3116)
-		(end 151.0084 76.3016)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "3b7b67ca-5214-4ae1-85af-20f27f401d46")
-	)
-	(segment
 		(start 113.9444 85.8774)
 		(end 113.9444 85.1916)
 		(width 0.508)
@@ -10991,14 +10983,6 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "8629ab7b-2693-4a12-bd83-0952ac1ce6ea")
-	)
-	(segment
-		(start 137.16 90.16)
-		(end 151.0084 76.3116)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "88bfd61d-ed26-4417-a8d0-11430f53a145")
 	)
 	(segment
 		(start 123.7996 83.1596)
@@ -11025,6 +11009,22 @@
 		(uuid "a8b5e33b-37c1-4705-ad43-1401e50c932e")
 	)
 	(segment
+		(start 147.3608 79.9592)
+		(end 151.0084 79.9592)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ac4bea4a-15b7-4f27-9e51-c763203bf9a6")
+	)
+	(segment
+		(start 137.16 91.44)
+		(end 137.16 90.16)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "aebbcf44-47ed-4d41-a05d-b327e1be87cf")
+	)
+	(segment
 		(start 142.0876 101.0412)
 		(end 137.16 96.1136)
 		(width 0.508)
@@ -11049,12 +11049,12 @@
 		(uuid "cd0972c6-ac79-4851-90d7-1e908aacbd12")
 	)
 	(segment
-		(start 137.16 91.44)
-		(end 137.16 90.16)
+		(start 137.16 90.16)
+		(end 147.3608 79.9592)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "d0ae517a-2ae0-4ece-a8c4-dedb9a2b911c")
+		(uuid "da32ad04-f821-47ec-bd42-217e17262bc9")
 	)
 	(segment
 		(start 129.54 97.9043)
@@ -11577,20 +11577,20 @@
 		(uuid "f5b7b468-9003-4e9c-9dc4-b914bad286ba")
 	)
 	(segment
-		(start 143.4084 76.3016)
-		(end 143.4084 76.3116)
+		(start 143.4084 79.9592)
+		(end 139.7608 79.9592)
 		(width 0.381)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "2032a47f-f9f3-4822-80c0-eaa3ac2dfc79")
+		(uuid "100ea49d-6dce-4841-a89b-4e07aefdebdb")
 	)
 	(segment
-		(start 130.9605 100.2844)
-		(end 124.9426 106.3023)
+		(start 139.7608 79.9592)
+		(end 130.9605 88.7595)
 		(width 0.381)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "3a376909-0cc9-46ce-ac93-4c62ff0dff12")
+		(uuid "244e00b2-e3d5-4686-b2ca-bfa84d08d4da")
 	)
 	(segment
 		(start 130.9605 88.7595)
@@ -11598,15 +11598,15 @@
 		(width 0.381)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "7d79886b-3cad-4344-b1a2-187e1fbe6ed5")
+		(uuid "6aea492d-2fbc-4145-b7e5-c2ec329a9d27")
 	)
 	(segment
-		(start 143.4084 76.3116)
-		(end 130.9605 88.7595)
+		(start 130.9605 100.2844)
+		(end 124.9426 106.3023)
 		(width 0.381)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "d9a1f728-a428-4fb3-9dd8-e8770c6fee63")
+		(uuid "9bb04418-8648-4d9e-ad15-5e73c6a9e15f")
 	)
 	(segment
 		(start 127.5842 91.1639)
