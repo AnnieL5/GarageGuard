@@ -4,6 +4,13 @@
 
 GarageGuard uses a ultrasonic sensor to detect if the garage door is open for a long period of time and makes an alerts until the door is closed.
 
+#### What makes it unique?
+It is
+- Original
+- Simple
+- Modifiable
+- Made by heart 
+
 ### Motivation / Inspiration / Problem
 
 Have you ever had scenarios where you have opened your garage door but it is remained open the next time you checked. 
