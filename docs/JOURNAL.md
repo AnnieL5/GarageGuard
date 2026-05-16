@@ -71,4 +71,6 @@ Challenge:
 ## 5.16
 Completed
 - Export the files
+- Modified Readme.md
+    - include images and what makes it unique subsection
 - Ready for submission!
