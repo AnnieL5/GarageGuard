@@ -63,3 +63,12 @@ Completed:
 
 Challenge:
 - Can not export STEP file - fusion 360 crashes every time I do that TvT
+
+## 5.11
+
+- Revise based on cad
+
+## 5.16
+Completed
+- Export the files
+- Ready for submission!
