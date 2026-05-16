@@ -17,6 +17,8 @@ That's why I designed Garage Guard, your personalized, simple device that alarms
 ### To use it
 To properly use the tool, calibrate the constant to match the distance such that the distance from the product is smaller than the value when door closed and greater otherwise.
 
+After inserting the battery, the device will beep when the door is open for a set period of time.
+
 ## Wiring Diagram
 ![alt text](images/image1.jpg)
 
