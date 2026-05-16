@@ -20,7 +20,7 @@ To properly use the tool, calibrate the constant to match the distance such that
 After inserting the battery, the device will beep when the door is open for a set period of time.
 
 ## Wiring Diagram
-![alt text](images/image1.jpg)
+![alt text](docs/images/image1.jpg)
 
 ## Code example
 Go checkout the example code in firmware/GarageGuard and upload it onto the arduino pro mini
@@ -29,12 +29,19 @@ For how to upload code onto arduino pro mini using arduino uno, check out https:
 
 ### Image of PCB
 
-![alt text](images/image.png)
+![alt text](docs/images/image.png)
 
 ### Image of Wiring Schematic
 
-![alt text](images/image-1.png)
+![alt text](docs/images/image-1.png)
+
+### Image of CAD assembly (without lid)
+![alt text](docs/images/image-3.png)
+
+### Image of CAD assembly (with lid)
+![alt text](docs/images/image-4.png)
 
 ## BOM / Parts Breakdown
 
-Arduino pro mini: "brain of the device", loads the firmware and receives/sends signals to electronics 
+Checkout docs/BOM.csv for the full BOM.
+ 
