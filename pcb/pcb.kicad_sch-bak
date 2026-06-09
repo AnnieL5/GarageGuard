@@ -1682,23 +1682,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -8.382 1.016 0)
+			(property "Reference" "U4"
+				(at -11.43 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "~"
+				(at 0 -8.1251 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "custom_footprints:AHT20+BMP280"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1740,7 +1742,7 @@
 			)
 			(symbol "BME280_new_1_1"
 				(text "BME280"
-					(at -7.874 -18.034 0)
+					(at -4.572 -18.034 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1765,10 +1767,10 @@
 						)
 					)
 				)
-				(pin output line
+				(pin power_out line
 					(at -16.51 -6.35 0)
 					(length 2.54)
-					(name "SDA"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1783,10 +1785,10 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at -16.51 -10.16 0)
 					(length 2.54)
-					(name "GND"
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1804,7 +1806,7 @@
 				(pin output line
 					(at -16.51 -13.97 0)
 					(length 2.54)
-					(name "SCL"
+					(name "SDA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2157,16 +2159,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 105.41) (xy 204.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd904d2-ce7a-4c9b-b80b-7fdaa26755c9")
-	)
-	(wire
-		(pts
 			(xy 113.03 86.36) (xy 113.03 83.82)
 		)
 		(stroke
@@ -2267,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 143.51) (xy 201.93 143.51)
+			(xy 152.4 143.51) (xy 199.39 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2329,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 140.97) (xy 199.39 140.97)
+			(xy 189.23 99.06) (xy 200.66 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5542899a-aeeb-48ad-97e1-dc2c202e6bbd")
+	)
+	(wire
+		(pts
+			(xy 154.94 140.97) (xy 203.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2397,6 +2399,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 101.6) (xy 204.47 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71d5b8ae-4aca-4076-83c7-ac5100b7dc77")
+	)
+	(wire
+		(pts
 			(xy 115.57 124.46) (xy 142.24 124.46)
 		)
 		(stroke
@@ -2434,6 +2446,26 @@
 			(type default)
 		)
 		(uuid "7bcafa73-b004-4300-8971-372be4d0ea54")
+	)
+	(wire
+		(pts
+			(xy 200.66 99.06) (xy 200.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f0c5029-49c7-4a74-9339-ff2b53f75fd1")
+	)
+	(wire
+		(pts
+			(xy 203.2 140.97) (xy 203.2 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8a433d-0cd6-45dd-887b-4780a6bfa12d")
 	)
 	(wire
 		(pts
@@ -2577,16 +2609,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 99.06) (xy 189.23 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ae1f9b-399e-48de-adc5-ff41185e4e4d")
-	)
-	(wire
-		(pts
 			(xy 181.61 99.06) (xy 181.61 92.71)
 		)
 		(stroke
@@ -2617,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 105.41) (xy 204.47 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da46985d-09db-4ba5-aec3-e1bedad05e12")
+	)
+	(wire
+		(pts
 			(xy 128.27 100.33) (xy 128.27 90.17)
 		)
 		(stroke
@@ -2627,7 +2659,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 143.51) (xy 201.93 105.41)
+			(xy 199.39 143.51) (xy 199.39 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2644,16 +2676,6 @@
 			(type default)
 		)
 		(uuid "e0509bb0-bd45-46af-aca1-1390c0a7404c")
-	)
-	(wire
-		(pts
-			(xy 199.39 97.79) (xy 204.47 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1e1278d-5b52-4bf2-858d-81628ddc7b92")
 	)
 	(wire
 		(pts
@@ -2687,23 +2709,13 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 101.6) (xy 204.47 101.6)
+			(xy 200.66 97.79) (xy 204.47 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "edc9ebce-9685-43e1-a6a8-fea5e1da7b16")
-	)
-	(wire
-		(pts
-			(xy 199.39 97.79) (xy 199.39 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f070dfd4-2430-46f3-bfe9-5b771112b52b")
+		(uuid "f20b05fa-5ce3-4cd6-ae91-72c76fe4a6dc")
 	)
 	(wire
 		(pts
@@ -2725,7 +2737,7 @@
 		(dnp no)
 		(uuid "04a88a0f-72e8-40c3-8268-57358b7b2424")
 		(property "Reference" "U4"
-			(at 211.836 90.424 0)
+			(at 216.154 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom_footprints:Button_2pin"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 137.16 95.25 0)
 			(effects
 				(font

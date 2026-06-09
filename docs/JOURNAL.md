@@ -74,3 +74,11 @@ Completed
 - Modified Readme.md
     - include images and what makes it unique subsection
 - Ready for submission!
+
+## 6.8
+
+Completed:
+- Went over shematics + pcb design
+- Caught a few errors on the button, thermosensor, and raspberry pi design. 
+Learned:
+- Before shipping the pcb, always check the connects and whether the footprint matches the actual design. 
