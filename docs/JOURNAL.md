@@ -82,3 +82,13 @@ Completed:
 - Caught a few errors on the button, thermosensor, and raspberry pi design. 
 Learned:
 - Before shipping the pcb, always check the connects and whether the footprint matches the actual design. 
+
+## 6.9
+
+Completed:
+- pcb went over design rules checker
+- Exported pcb as gerber and drill files
+- submitted pbc for manufacturing
+
+Learned
+- How to use JLCPCB
