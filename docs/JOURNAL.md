@@ -92,3 +92,16 @@ Completed:
 
 Learned
 - How to use JLCPCB
+
+## 6.16
+
+Completed:
+- Polish CAD
+    - round the corners
+    - added design on the top
+    - added different colours
+
+Challenge:
+- How to hide the grid in Fusion 360
+Fix:
+- bottom middle grid icon -> uncheck grid
