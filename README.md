@@ -43,10 +43,11 @@ For how to upload code onto arduino pro mini using arduino uno, check out https:
 ![alt text](docs/images/image-1.png)
 
 ### Image of CAD assembly (without lid)
-![alt text](docs/images/image-3.png)
+![alt text](docs/images/view2.jpg)
 
 ### Image of CAD assembly (with lid)
-![alt text](docs/images/image-4.png)
+![alt text](docs/images/view1.jpg)
+![alt text](docs/images/view1.5.jpg)
 
 ## BOM / Parts Breakdown
 

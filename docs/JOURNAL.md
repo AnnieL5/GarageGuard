@@ -105,3 +105,8 @@ Challenge:
 - How to hide the grid in Fusion 360
 Fix:
 - bottom middle grid icon -> uncheck grid
+
+## 6.20
+
+Change Zine page from png to pdf
+Update images in README
