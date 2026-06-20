@@ -49,6 +49,9 @@ For how to upload code onto arduino pro mini using arduino uno, check out https:
 ![alt text](docs/images/view1.jpg)
 ![alt text](docs/images/view1.5.jpg)
 
+## Zine Page
+![alt text](docs/images/Zine_Page.jpg)
+
 ## BOM / Parts Breakdown
 
 | Product name          | Product Description                          | Amount | Unit Price | Shipping Fee | Total Price | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
